@@ -44,10 +44,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16fa649d834292349bf7512a11f3c3e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IPAddress: 127.0.0.1
+  IPAddress: 192.168.243.12
   useTCP: 1
   TCPPort: 10000
-  connectOnStartup: 0
+  connectOnStartup: 1
   autoForwardLogs: 1
   defaultComponentName: 
   minimumForwardLevel: 0

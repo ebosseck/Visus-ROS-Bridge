@@ -5,7 +5,7 @@ namespace Visus.Robotics.RosBridge
 {
     public abstract class ROSMessage
     {
-        public abstract void serializeToMessage(Message message);
+        public abstract void serializeToMessage(Message message, bool includeHeader = true);
 
         public abstract void deserializeFromMessage(Message message);
         
