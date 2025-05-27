@@ -77,7 +77,7 @@ namespace Visus.Robotics.RosBridge
         {
             this.config = config;
 
-            Message.MaxPayloadSize = 8 * 1024 * 1024; // 8 Mb
+            Message.MaxPayloadSize = 63 * 1024; // 63 kb
             
             this.subscriptions = new Dictionary<string, List<Action<ROSMessage>>>();
             this.subscriptionTypes = new Dictionary<string, Type>();
